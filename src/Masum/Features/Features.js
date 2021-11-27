@@ -27,7 +27,7 @@ const Features = () => {
                     <div className='row'>
                         <div className='col-md-4 pb-3'>
                             <div className='card px-4 py-3 text-center'>
-                                <h5 className='one pb-2'>Staking <span>&</span> Tokenomics'</h5>
+                                <h5 className='one pb-2'>Staking <span>&</span> Tokenomics</h5>
                                 <p>Stake Cartel crew to earn $POWDER and purchase land </p>
                                 <p>Stake Cops to earn a % of ALL $POWDER produced and have a chance to stealother NFTs minted with$POWDER</p>
                                 <img src={about3} className="img-fluid custom1" alt="" />

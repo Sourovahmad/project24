@@ -1,9 +1,11 @@
 .minting_area  {
     background: url(../../images/Layer\ 8.png) no-repeat;
     background-size: cover;
+    font-family: 'Press Start 2P', cursive;
 }
 .minting_area .minting_details .title {
     color: #fc2d2d;
+    font-size: 15px;
 }
 .minting_area .minting_details .mint {
     margin: 0 150px;
@@ -15,6 +17,10 @@
 }
 .minting_area .minting_details .mint h6 {
     color: #fc2d2d;
+    font-size: 10px;
+}
+.minting_area .minting_details .mint p {
+    font-size: 9px;
 }
 .minting_area .minting_details .mint img {
     width: 150px;
@@ -26,10 +32,15 @@
 }
 .minting_area .cart h5 {
     color: #fc2d2d;
+    font-size: 14px;
+}
+.minting_area .cart p {
+    font-size: 7px;
 }
 .minting_area .cart h6 {
     color: #fc2d2d;
     margin: 0;
+    font-size: 7px;
 }
 .minting_area .cart p {
     margin: 0;

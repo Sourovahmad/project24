@@ -5,6 +5,7 @@
 .game_area {
     background: url(../../images/Background.png) no-repeat;
     padding: 60px 0;
+    font-family: 'Press Start 2P', cursive;
 }
 .game_area .status {
     background-color: #202230;
@@ -12,9 +13,11 @@
 }
 .game_area .status h2 {
     color: #fc2d2d;
+    font-size: 20px;
 }
 .game_area .status p {
     color: #fff;
+    font-size: 9px;
 }
 .game_area .stake {
     text-align: center;
@@ -23,17 +26,22 @@
 }
 .game_area .stake h6 {
     color: #fff;
+    font-size: 10px;
 }
 .game_area .stake h1 {
     color: #fc2d2d;
     font-weight: bold;
+    font-size: 30px;
+    padding-top: 25px;
 }
 .game_area .stake button {
     background: linear-gradient(to right, #ff8652 , #e74663);
     border-radius: 0%;
     font-weight: 600;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 20px;
+    font-size: 10px;
+    padding-right: 20px;
+    padding-top: 10px;
 }
 
 

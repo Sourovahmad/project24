@@ -1,8 +1,3 @@
-/* .navbar-toggler
-.navbar-toggler-icon {
-    color: #fc2d2d !important;
-    background: #fc2d2d !important;
-} */
 .navbar-toggler {
     color: #fc2d2d !important;
     background: #fc2d2d !important;
@@ -11,6 +6,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
     background: #000;
+    font-family: 'Press Start 2P', cursive;
 }
 .navbar_area ul {
     margin: 0 auto;
@@ -18,7 +14,7 @@
 .navbar_area ul a {
     color: #fc2d2d !important;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 10px;
 }
 .navbar_area .social_area {
     display: flex;
@@ -32,6 +28,7 @@
     background: linear-gradient(to right, #ff8652 , #e74663);
     border-radius: 0%;
     margin-left: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 10px;
 }

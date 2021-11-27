@@ -3,18 +3,25 @@
     padding-left: 160px;
     padding-right: 160px;
     padding-bottom: 80px;
+    font-family: 'Press Start 2P', cursive;
 }
 .features_area .up_info .title {
     color: #fc2d2d;
+    font-size: 15px;
+    padding-bottom: 10px;
 }
 .features_area .up_info p {
     color: #f0ebeb;
+    font-size: 8px;
+    line-height: 13px;
 }
 .features_area .sub_title {
     color: #fc2d2d;
+    font-size: 13px;
 }
 .features_area .detail {
     color: #fff;
+    font-size: 9px;
 }
 .features_area .card {
     background-color: #202230;
@@ -22,6 +29,7 @@
 }
 .features_area .card .one {
     color:#fc2d2d;
+    font-size: 11px;
 }
 .features_area .card .one span {
     color:#fff;
@@ -29,6 +37,7 @@
 .features_area .card .two {
     color:#fff;
     text-align: left;
+    font-size: 9px;
 }
 .features_area .card .two span {
     color:#fc2d2d;
@@ -36,7 +45,7 @@
 .features_area .card p{
     color:#f7ecec;
     text-align: left;
-    font-size: 16px;
+    font-size: 8px;
 }
 .features_area .card .custom1 {
     width: 150px;
@@ -45,7 +54,7 @@
 }
 .features_area .card .custom2 {
     width: 150px;
-    height: 158px;
+    height: 135px;
     margin: 0 auto;
 }
 

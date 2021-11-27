@@ -78,7 +78,7 @@ const Minting = () => {
                                     Cops will have a total of 4 ranks
                                 </p>
 
-                                <div className='pb-3 pb-lg-5'>
+                                <div className='pb-4'>
                                     <h6>Rankings:</h6>
                                     <p>Higher ranked cops will receive:</p>
                                     <p>- Higher amount of $powder from tax</p>
@@ -95,7 +95,7 @@ const Minting = () => {
                                     </p>
                                 </div>
 
-                                <div className='pb-4 pb-lg-5'>
+                                <div className='pb-4'>
                                     <h6>Claiming</h6>
                                     <p>
                                         Receive all $POWDER tax accumulated
@@ -103,7 +103,7 @@ const Minting = () => {
                                     </p>
                                 </div>
 
-                                <div className='pb-3 pb-lg-5'>
+                                <div className='pb-3'>
                                     <h6>Unstake (OFF DUTY)</h6>
                                     <p>
                                         Receive all $POWDER tax accumulated
