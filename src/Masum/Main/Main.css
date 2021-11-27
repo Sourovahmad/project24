@@ -1,0 +1,63 @@
+.main_area {
+    background: url(../../images/hero.jpg) no-repeat;
+    background-size: cover;
+}
+.main_area .left h1 {
+    margin: 0 0 0 15px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 55px;
+}
+.main_area .left p {
+    color: #fff;
+    font-size: 22px;
+}
+.main_area .right {
+    background-color: #121212;
+    border: 1px solid #85031b;
+    text-align: center;
+    margin: 0 auto;
+}
+.main_area .right .title {
+    margin: 0;
+    color: #fc2d2d;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.main_area .right img {
+    width: 300px;
+    height: 250px;
+}
+.main_area .right p {
+    color: #fff;
+    margin-top: -40px;
+}
+
+/* discord btn */
+.discord_btn {
+    background: #000;
+    text-align: center;
+    padding: 20px 0;
+}
+.discord_btn button {
+    background: linear-gradient(to right, #ff8652 , #e74663);
+    border-radius: 0%;
+    font-size: 19px;
+    font-weight: bold;
+    color: #000;
+}
+
+
+
+
+
+/* responsive code */
+@media only screen and (max-width: 600px) {
+    .main_area .left {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+}
+
+
+

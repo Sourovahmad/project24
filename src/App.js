@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import Features from "./Masum/Features/Features";
+import Game from "./Masum/Game/Game";
+import Main from "./Masum/Main/Main";
+import Minting from "./Masum/Minting/Minting";
+import Navbar from "./Masum/Navbar/Navbar";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <Navbar />
+      <Main />
+      <Features />
+      <Minting />
+      <Game />
     </div>
   );
 }

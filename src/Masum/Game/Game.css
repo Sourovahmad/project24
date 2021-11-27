@@ -1,0 +1,62 @@
+.empty {
+    padding: 40px 0;
+    background: #000;
+}
+.game_area {
+    background: url(../../images/Background.png) no-repeat;
+    padding: 60px 0;
+}
+.game_area .status {
+    background-color: #202230;
+    border: 1px solid #85031b;
+}
+.game_area .status h2 {
+    color: #fc2d2d;
+}
+.game_area .status p {
+    color: #fff;
+}
+.game_area .stake {
+    text-align: center;
+    background-color: #202230;
+    border: 1px solid #85031b;
+}
+.game_area .stake h6 {
+    color: #fff;
+}
+.game_area .stake h1 {
+    color: #fc2d2d;
+    font-weight: bold;
+}
+.game_area .stake button {
+    background: linear-gradient(to right, #ff8652 , #e74663);
+    border-radius: 0%;
+    font-weight: 600;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* responsive code */
+@media only screen and (max-width: 600px) {
+    .game_area .status p {
+        font-size: small;
+    }
+}
+
+
+
+
+
+
+
+
