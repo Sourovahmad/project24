@@ -46,10 +46,10 @@ const Minting = () => {
                                     <p>Accumulate a base rate of 5,000 $POWER daily</p>
                                 </div>
 
-                                <div className='pb-4'>
+                                <div className='pb-3 mb-1'>
                                     <h6>Claiming</h6>
                                     <p>Receive 75% of $POWDER produced by your Cartel Member</p>
-                                    <p className='risk'>RISK: Cops take a 25% tax on all $POWDER
+                                    <p className='risk pb-1'>RISK: Cops take a 25% tax on all $POWDER
                                         produced in exchange they have agreed to 
                                         turn a blind eye to the illegal operation
                                         Taxed $POWDER is split among all staked
@@ -60,7 +60,7 @@ const Minting = () => {
                                 <div className='pb-4'>
                                     <h6>Unstake (FLEE LAB)</h6>
                                     <p>All $POWDER produced is claimed</p>
-                                    <p className='risk'>
+                                    <p className='risk' style={{paddingBottom: '1px'}}>
                                         RISK: 50% chance ALL $POWDER produced
                                         is seized by the Cops. Seized $POWDER
                                         is split among all staked Cops proportional
@@ -70,7 +70,7 @@ const Minting = () => {
                             </div>
                         </div>
 
-                        <div className='col-md-4 pb-3'>
+                        <div className='col-md-4 pb-4'>
                             <div className='cart px-4 pt-2 pb-4'>
                                 <h5 className='text-center pb-2'>COPS</h5>
                                 <p className='text-center pb-4'>
@@ -103,9 +103,9 @@ const Minting = () => {
                                     </p>
                                 </div>
 
-                                <div className='pb-3'>
+                                <div className='pb-4'>
                                     <h6>Unstake (OFF DUTY)</h6>
-                                    <p>
+                                    <p className='mb-1'>
                                         Receive all $POWDER tax accumulated
                                         by your staked Cop
                                     </p>
@@ -130,14 +130,14 @@ const Minting = () => {
                                         for community giveaways
                                     </p>
 
-                                    <p className='pb-1'>
+                                    <p className=''>
                                         1,700,000,000 $POWDER is available 
                                         through staking. Once all $POWDER is
                                         produced the lab will shut down
                                     </p>
                                 </div>
 
-                                <div className='pb-3'>
+                                <div className='pb-2'>
                                     <h6>Usage:</h6>
                                     <p>Mint a new NFT using $POWDER</p>
                                     <p>
@@ -150,7 +150,7 @@ const Minting = () => {
                                     </p>
                                 </div>
 
-                                <div className='pb-3'>
+                                <div className='pb-1'>
                                     <h6>PHASE 2:</h6>
                                     <p>
                                         Claim land with $POWDER, each piece of land

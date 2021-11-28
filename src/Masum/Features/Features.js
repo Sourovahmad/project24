@@ -35,10 +35,10 @@ const Features = () => {
                         </div>
 
                         <div className='col-md-4 pb-3'>
-                            <div className='card px-4 py-3 text-center'>
+                            <div className='card px-3 py-3 text-center'>
                                 <h5 className='two pb-2'>Integration into <span>SandBox</span> with playable avatars</h5>
                                 <p>VX Cops and Cartels NFTs will be released which will act as playable avatars in The Sandbox. 3 plots of land will be purchased and assigned to each cartel.</p>
-                                <img src={about1} className="img-fluid" alt="" />
+                                <img src={about1} className="custom2 img-fluid" alt="" />
                             </div>
                         </div>
 
@@ -47,7 +47,7 @@ const Features = () => {
                                 <h5 className='one pb-2'>Factions <span>&</span> Upgrades</h5>
                                 <p>Upgrade your Cartel or Cop NFT rank to earn better rewards</p>
                                 <p>User $POWDER to purchase land within the games ecosystem and claim it as your Cartels territory</p>
-                                <img src={about2} className="img-fluid custom2" alt="" />
+                                <img src={about2} className="img-fluid custom3" alt="" />
                             </div>
                         </div>
                     </div>
