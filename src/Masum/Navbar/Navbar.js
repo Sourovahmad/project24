@@ -32,8 +32,8 @@ const Navbar = () => {
                     </div>
 
                     <div className='social_area'>
-                        <a href='#'><FontAwesomeIcon icon={faDiscord} /></a>
-                        <a href='#'><FontAwesomeIcon icon={faTwitter} /></a>
+                        <a href="https://discord.gg/zM47G5YJRs" target="_blank"><FontAwesomeIcon icon={faDiscord} /></a>
+                        <a href='https://twitter.com/CopsandCartels' target="_blank"><FontAwesomeIcon icon={faTwitter} /></a>
                         <button className='btn'>CONNECT WALLET</button>
                     </div>
                 </nav>

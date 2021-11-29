@@ -1,10 +1,13 @@
 import React from 'react';
 import blx from '../../images/blx.png';
+import Navbar from '../Navbar/Navbar';
 import './Main.css';
 
 const Main = () => {
     return (
-        <div>
+        <div className='custom_height'>
+            <Navbar />
+
             <div className='main_area py-5'>
                 <div className='container'>
                     <div className='row d-flex align-items-center'>

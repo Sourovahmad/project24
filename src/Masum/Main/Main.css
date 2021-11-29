@@ -1,7 +1,11 @@
+.custom_height {
+    height: 100vh;
+}
 .main_area {
     background: url(../../images/hero.jpg) no-repeat;
     background-size: cover;
     font-family: 'Press Start 2P', cursive;
+    height: 77vh;
 }
 .main_area .left h1 {
     margin: 0 0 0 15px;
@@ -58,10 +62,30 @@
 
 
 /* responsive code */
-@media only screen and (max-width: 600px) {
+@media (min-width: 1281px) {
+    .container {
+        max-width: 1920px !important;
+    }    
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+    .custom_height {
+        height: 100vh;
+    }
+    .main_area {
+        height: 90vh;
+    }
+}
+  
+@media (min-width: 320px) and (max-width: 600px) {
     .main_area .left {
         text-align: center;
         padding-bottom: 30px;
+    }
+    .custom_height {
+        height: auto;
+    }
+    .main_area {
+        height: auto;
     }
 }
 

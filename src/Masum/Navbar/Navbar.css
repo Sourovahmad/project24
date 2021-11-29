@@ -38,7 +38,13 @@
 
 
 /* responsive code */
-@media only screen and (max-width: 600px) {
+@media (min-width: 1281px) {
+    .container {
+        max-width: 1920px !important;
+    }    
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
     .navbar_area .social_area a {
         padding: 0 5px;
     }

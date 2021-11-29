@@ -61,7 +61,13 @@
 
 
 /* responsive code */
-@media only screen and (max-width: 600px) {
+@media (min-width: 1281px) {
+    .container {
+        max-width: 1920px !important;
+    }    
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
     .minting_area .minting_details .mint {
         margin: 0 20px;
     }

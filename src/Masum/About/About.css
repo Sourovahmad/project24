@@ -1,0 +1,58 @@
+.about_area {
+    background: url(../../images/Layer\ 3.png) no-repeat;
+    font-family: 'Press Start 2P', cursive;
+    background-size: cover;
+}
+.about_area .a_title {
+    font-size: 18px;
+    color: #fc2d2d;
+}
+.about_area .a_card {
+    background: #171717;
+}
+.about_area .one {
+    padding-bottom: .1px;
+}
+.about_area .two {
+    padding-bottom: 41px;
+}
+.about_area .three {
+    padding-bottom: 25px;
+}
+.about_area .four {
+    padding-bottom: 29px;
+}
+.about_area .a_card h6 {
+    background: #fc2d2d;
+    color: #fff;
+    font-size: 6px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.about_area .a_card .a_sub {
+    padding: 11.5px 0;
+}
+.about_area .a_card .a_bg {
+    background: #202230;
+    text-align: center;
+    margin: 0 auto;
+    height: 150px;
+}
+.about_area .a_card .a_bg .money {
+    height: 150px;
+}
+.about_area .a_card .a_bg .a_m {
+    height: 150px;
+}
+.about_area .a_card h2 {
+    color: #fc2d2d;
+    font-size: 15px;
+}
+.about_area .a_card h2 span {
+    color: #fff;
+}
+.about_area .a_card p {
+    color: #d9d9d9;
+    font-size: 9px;
+    font-family: 'Courier Prime', monospace;
+}
