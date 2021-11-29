@@ -12,7 +12,7 @@ const About = () => {
                 <div className='row'>
                     <div className='col-md-3'>
                         <div className='a_card mb-3 one'>
-                            <h6 className='py-2'>Implemented in Phase 1 (ONLAUNCH)</h6>
+                            <h6 className=''>Implemented in Phase 1 (ONLAUNCH)</h6>
                             <div className="a_bg"><img src={about3} class="money img-fluid" alt=""/></div>
                             <div className='px-3'>
                                 <h2 className="pt-2">YIELDING <span>$POWDER</span></h2>
@@ -25,7 +25,7 @@ const About = () => {
 
                     <div className='col-md-3'>
                         <div className='a_card mb-3 two'>
-                            <h6 className='py-2'>Implemented in Phase 2 (Q1 2022)</h6>
+                            <h6 className=''>Implemented in Phase 2 (Q1 2022)</h6>
                             <div className="a_bg"><img src='' class="img-fluid" alt=""/></div>
                             <div className='px-3'>
                                 <h2 className="pt-2">LAND <span>& UPGRADES</span></h2>

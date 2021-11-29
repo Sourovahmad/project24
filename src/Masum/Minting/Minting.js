@@ -70,7 +70,7 @@ const Minting = () => {
                             </div>
                         </div>
 
-                        <div className='col-md-4 pb-4'>
+                        <div className='col-md-4  pb-4'>
                             <div className='cart px-4 pt-2 pb-4'>
                                 <h5 className='text-center pb-2'>COPS</h5>
                                 <p className='text-center pb-4'>
@@ -78,7 +78,7 @@ const Minting = () => {
                                     Cops will have a total of 4 ranks
                                 </p>
 
-                                <div className='pb-4'>
+                                <div className='pb-4 ex_padding1'>
                                     <h6>Rankings:</h6>
                                     <p>Higher ranked cops will receive:</p>
                                     <p>- Higher amount of $powder from tax</p>
@@ -120,17 +120,17 @@ const Minting = () => {
                             
                                 <div className='pb-2'>
                                     <h6>Allocations</h6>
-                                    <p className='pb-1'>
+                                    <p className=' ex_padding2'>
                                         300,000,000 $POWDER will be allocated
                                         to the team
                                     </p>
                                     
-                                    <p className='pb-1'>
+                                    <p className=' ex_padding3'>
                                         500,000,000 $POWDER will be reserved
                                         for community giveaways
                                     </p>
 
-                                    <p className=''>
+                                    <p className='ex_padding4'>
                                         1,700,000,000 $POWDER is available 
                                         through staking. Once all $POWDER is
                                         produced the lab will shut down

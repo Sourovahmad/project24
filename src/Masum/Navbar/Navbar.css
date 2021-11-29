@@ -41,9 +41,34 @@
 @media (min-width: 1281px) {
     .container {
         max-width: 1920px !important;
+        margin: 0 auto;
     }    
+    .navbar_area ul a {
+        font-size: 15px;
+    }
+    .navbar_area .social_area a {
+        padding: 0 20px;
+        font-size: 27px;
+    }
+    .navbar_area .social_area button {
+        margin-left: 25px;
+        font-size: 17px;
+    }
+    
 }
-
+@media (min-width: 720px) and (max-width: 1280px) {
+    .navbar_area ul a {
+        font-size: 9px;
+    }
+    .navbar_area .social_area a {
+        padding: 0 10px;
+        font-size: 17px;
+    }
+    .navbar_area .social_area button {
+        margin-left: 15px;
+        font-size: 9px;
+    }
+}
 @media (min-width: 320px) and (max-width: 600px) {
     .navbar_area .social_area a {
         padding: 0 5px;

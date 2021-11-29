@@ -14,14 +14,14 @@ const Game = () => {
                                 <h2>GAME STATS</h2>
 
                                 <div className='d-flex'>
-                                    <div className='pr-4 pe-lg-5 me-lg-5'>
-                                        <p>Cartels Minted:?</p>
-                                        <p>Cops Minted:</p>
-                                        <p>Cartels Staked:?</p>
-                                        <p>Cops Staked:?</p>
+                                    <div className='pr-4 pe-lg-5 pe-xl-5 pe-xxl-5 me-lg-5 me-xl-5 me-xxl-5'>
+                                        <p className='game_r'>Cartels Minted:?</p>
+                                        <p className='game_r'>Cops Minted:?</p>
+                                        <p className='game_r'>Cartels Staked:?</p>
+                                        <p className='game_r'>Cops Staked:?</p>
                                     </div>
 
-                                    <div className='ps-3 ps-lg-5'>
+                                    <div className='ps-3 ps-lg-5  ps-xl-5 px-xxl-5'>
                                         <p>Cartels Arrested:?</p>
                                         <p>$POWDER Claimed:?</p>
                                     </div>

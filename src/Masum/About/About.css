@@ -56,3 +56,104 @@
     font-size: 9px;
     font-family: 'Courier Prime', monospace;
 }
+
+
+
+
+
+
+
+
+/* responsive code */
+@media (min-width: 1281px) {
+    .container {
+        max-width: 1920px !important;
+        margin: 0 auto;
+    } 
+    .about_area .a_title {
+        font-size: 28px;
+    }
+    .about_area .a_card .a_sub {
+        padding: 21px 0;
+    }
+    .about_area .a_card h6 {
+        font-size: 13px;
+        padding: 12.5px 0;
+    }
+    .about_area .a_card .a_bg {
+        height: 230px;
+    }
+    .about_area .a_card .a_bg .money {
+        height: 215px;
+    }
+    .about_area .a_card .a_bg .a_m {
+        height: 215px;
+    }
+    .about_area .a_card h2 {
+        font-size: 23px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+    .about_area .a_card p {
+        font-size: 17px;
+        text-align: left;
+    }
+    .about_area .two {
+        padding-bottom: 76px;
+    }
+    .about_area .three {
+        padding-bottom: 59px;
+    }
+    .about_area .four {
+        padding-bottom: 34px;
+    }
+}
+@media (min-width: 720px) and (max-width: 1280px) {
+    .about_area .a_title {
+        font-size: 15px;
+        padding: 0;
+    }
+    .about_area .a_card .a_sub {
+        padding: 13px 0;
+    }
+    .about_area .a_card h6 {
+        font-size: 7px;
+        padding: 9px 0;
+    }
+    .about_area .a_card h2 {
+        font-size: 11px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .about_area .a_card p {
+        font-size: 9.5px;
+        text-align: left;
+    }
+    .about_area .two {
+        padding-bottom: 58px;
+    }
+    .about_area .three {
+        padding-bottom: 28px;
+    }
+    .about_area .four {
+        padding-bottom: 29px;
+    }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+    .about_area .a_card h6 {
+        font-size: 8px;
+        padding: 10px 0;
+    }
+    .about_area .a_title {
+        font-size: 12px;
+    }
+    .about_area .a_card h2 {
+        font-size: 15px;
+    }
+    .about_area .a_card p {
+        font-size: 11px;
+    }
+    .about_area .a_card .a_sub {
+        padding: 15px 0;
+    }
+}
