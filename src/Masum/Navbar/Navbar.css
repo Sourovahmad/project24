@@ -1,6 +1,8 @@
 .navbar-toggler {
     color: #fc2d2d !important;
     background: #fc2d2d !important;
+    padding: 5px 7px;
+    font-size: 18px;
 }
 .navbar_area {
     padding-top: 10px;
@@ -31,4 +33,19 @@
     padding-left: 10px;
     padding-right: 10px;
     font-size: 10px;
+}
+
+
+
+/* responsive code */
+@media only screen and (max-width: 600px) {
+    .navbar_area .social_area a {
+        padding: 0 5px;
+    }
+    .navbar_area .social_area a svg {
+        font-size: 22px;
+    }
+    .navbar_area .social_area button {
+        margin-left: 10px;
+    }
 }
