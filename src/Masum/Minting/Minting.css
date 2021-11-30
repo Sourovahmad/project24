@@ -73,8 +73,8 @@
     }  
     .minting_area .minting_details {
         padding-bottom: 80px;
-        margin-left: 130px;
-        margin-right: 130px;
+        margin-left: 180px;
+        margin-right: 180px;
     } 
     .minting_area .minting_details .title {
         font-size: 24px !important;
@@ -93,28 +93,28 @@
         font-size: 15px;
     }
     .minting_area .cart h5 {
-        font-size: 25px;
+        font-size: 23px;
         padding-top: 10px;
     }
     .minting_area .cart p {
-        font-size: 19px;
+        font-size: 17px;
         text-align: left;
     }
     .minting_area .cart h6 {
-        font-size: 15px;
+        font-size: 12px;
         text-align: left;
     }
     .minting_area .minting_details .mint h6 {
         font-size: 20px;
     }
     .ex_padding0 {
-        padding-bottom: 55px;
+        padding-bottom: 47px;
     }
     .ex_padding1 {
         margin-bottom: 15px;
     }
     .ex_padding12 {
-        padding-bottom: 130px;
+        padding-bottom: 107px;
     }
     .ex_padding11 {
         margin-bottom: 15px;
@@ -134,11 +134,11 @@
     .minting_area .cart {
         padding-left: 30px;
         padding-right: 30px;
-        margin-right: 15px;
-        margin-left: 15px;
+        margin-right: 5px;
+        margin-left: 5px;
     }
     .extra_m {
-        margin: 0 90px;
+        margin: 0 210px;
     }
 }
 @media (min-width: 720px) and (max-width: 1280px) {

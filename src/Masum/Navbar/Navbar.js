@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <div className='navbar_area'>
             <div className='container'>
-                <nav class="d-flex justify-content-between navbar navbar-expand-lg navbar-light">
+                <nav class="d-flex extra_ma justify-content-between navbar navbar-expand-lg navbar-light">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>

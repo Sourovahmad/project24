@@ -55,7 +55,10 @@
         margin-left: 25px;
         font-size: 17px;
     }
-    
+    .extra_ma {
+        margin-right: 100px;
+        margin-left: 100px;
+    }
 }
 @media (min-width: 720px) and (max-width: 1280px) {
     .navbar_area ul a {
