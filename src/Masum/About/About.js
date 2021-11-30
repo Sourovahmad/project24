@@ -9,7 +9,7 @@ const About = () => {
             <div className='container'>
                 <h2 className='a_title text-center pb-4'>ROADMAP AND PROJECT FEATURES</h2>
 
-                <div className='row'>
+                <div className='row extra_margin'>
                     <div className='col-md-3'>
                         <div className='a_card mb-3 one'>
                             <h6 className=''>Implemented in Phase 1 (ONLAUNCH)</h6>

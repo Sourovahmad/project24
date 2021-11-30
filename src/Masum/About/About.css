@@ -77,8 +77,8 @@
         padding: 21px 0;
     }
     .about_area .a_card h6 {
-        font-size: 13px;
-        padding: 12.5px 0;
+        font-size: 11px;
+        padding: 14.5px 0;
     }
     .about_area .a_card .a_bg {
         height: 230px;
@@ -99,13 +99,17 @@
         text-align: left;
     }
     .about_area .two {
-        padding-bottom: 76px;
+        padding-bottom: 128px;
     }
     .about_area .three {
-        padding-bottom: 59px;
+        padding-bottom: 99px;
     }
     .about_area .four {
-        padding-bottom: 34px;
+        padding-bottom: 100px;
+    }
+    .extra_margin {
+        margin-left: 60px;
+        margin-right: 60px;
     }
 }
 @media (min-width: 720px) and (max-width: 1280px) {

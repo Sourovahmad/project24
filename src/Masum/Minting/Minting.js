@@ -7,7 +7,7 @@ const Minting = () => {
     return (
         <div className='minting_area pt-3 pb-2'>
             <div className='container'>
-                <div className='minting_details pb-5'>
+                <div className='minting_details'>
                     <h5 className='title text-center'>MINTING</h5>
 
                     <div className='mint pt-3 px-3 px-lg-0 d-lg-flex align-items-center justify-content-between'>
@@ -35,9 +35,9 @@ const Minting = () => {
                     </div>
                 </div>
 
-                    <div className='row pt-3'>
+                    <div className='row extra_m pt-3'>
                         <div className='col-md-4 pb-3'>
-                            <div className='cart px-4 pt-2'>
+                            <div className='cart ex_padding0 pt-2'>
                                 <h5 className='text-center pb-1'>CARTEL</h5>
                                 <p className='text-center pb-4'>You have a 85% chance to mint a cartel crew part of 1 of the 3 cartels</p>
 
@@ -71,7 +71,7 @@ const Minting = () => {
                         </div>
 
                         <div className='col-md-4  pb-4'>
-                            <div className='cart px-4 pt-2 pb-4'>
+                            <div className='cart ex_padding12 pt-2'>
                                 <h5 className='text-center pb-2'>COPS</h5>
                                 <p className='text-center pb-4'>
                                     You have a 15% chance to mint a cop
@@ -87,7 +87,7 @@ const Minting = () => {
                                     </p>
                                 </div>
 
-                                <div className='pb-4'>
+                                <div className='pb-4 ex_padding11'>
                                     <h6>Staking (ON DUTY)</h6>
                                     <p>
                                         Only staked Cops are able to receive
@@ -95,7 +95,7 @@ const Minting = () => {
                                     </p>
                                 </div>
 
-                                <div className='pb-4'>
+                                <div className='pb-4 ex_padding111'>
                                     <h6>Claiming</h6>
                                     <p>
                                         Receive all $POWDER tax accumulated
@@ -114,7 +114,7 @@ const Minting = () => {
                         </div>
 
                         <div className='col-md-4 pb-3'>
-                            <div className='cart px-4 pt-2'>
+                            <div className='cart pt-2'>
                                 <h5 className='text-center'>$POWDER</h5>
                                 <p className='text-center pb-4'>The maximum supply of $POWDER is 2,500,000,000</p>
                             

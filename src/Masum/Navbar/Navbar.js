@@ -19,12 +19,12 @@ const Navbar = () => {
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Whitepaper</a>
                             </li>
-                            <li class="nav-item">
+                            {/* <li class="nav-item">
                                 <a class="nav-link" href="#">Mint</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Claim</a>
-                            </li>
+                            </li> */}
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Stake</a>
                             </li>

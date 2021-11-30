@@ -3,6 +3,9 @@
     background-size: cover;
     font-family: 'Press Start 2P', cursive;
 }
+.minting_area .minting_details {
+    padding-bottom: 48px;
+}
 .minting_area .minting_details .title {
     color: #fc2d2d;
     font-size: 15px;
@@ -29,6 +32,8 @@
     background-color: #202230;
     border: 1px solid #85031b;
     color: #fff;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 .minting_area .cart h5 {
     color: #fc2d2d;
@@ -65,7 +70,12 @@
     .container {
         max-width: 1920px !important;
         margin: 0 auto;
-    }   
+    }  
+    .minting_area .minting_details {
+        padding-bottom: 80px;
+        margin-left: 130px;
+        margin-right: 130px;
+    } 
     .minting_area .minting_details .title {
         font-size: 24px !important;
         padding: 10px 0;
@@ -74,16 +84,17 @@
         width: 200px;
     }
     .minting_area .minting_details .mint img:first-child {
-        margin-right: 100px;
+        margin-right: 40px;
     }
     .minting_area .minting_details .mint img:last-child {
-        margin-left: 100px;
+        margin-left: 40px;
     }
     .minting_area .minting_details .mint p {
         font-size: 15px;
     }
     .minting_area .cart h5 {
         font-size: 25px;
+        padding-top: 10px;
     }
     .minting_area .cart p {
         font-size: 19px;
@@ -96,8 +107,20 @@
     .minting_area .minting_details .mint h6 {
         font-size: 20px;
     }
+    .ex_padding0 {
+        padding-bottom: 55px;
+    }
     .ex_padding1 {
-        margin-bottom: 9px;
+        margin-bottom: 15px;
+    }
+    .ex_padding12 {
+        padding-bottom: 130px;
+    }
+    .ex_padding11 {
+        margin-bottom: 15px;
+    }
+    .ex_padding111{
+        margin-bottom: 15px;
     }
     .ex_padding2 {
         padding-bottom: 10px;
@@ -107,6 +130,15 @@
     }
     .ex_padding4 {
         padding-bottom: 7.5px;
+    }
+    .minting_area .cart {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .extra_m {
+        margin: 0 90px;
     }
 }
 @media (min-width: 720px) and (max-width: 1280px) {
@@ -118,6 +150,9 @@
     }
     .ex_padding4 {
         padding-bottom: 1px;
+    }
+    .ex_padding12 {
+        padding-bottom: 23px;
     }
 }
 @media (min-width: 320px) and (max-width: 600px) {
