@@ -5,7 +5,7 @@ import about3 from '../../images/about-3.png';
 
 const Minting = () => {
     return (
-        <div className='minting_area pt-3 pb-2'>
+        <div id="mint" className='minting_area pt-3 pb-2'>
             <div className='container'>
                 <div className='minting_details'>
                     <h5 className='title text-center'>MINTING</h5>

@@ -31,7 +31,7 @@ const Main = () => {
             </div>
 
             <div className='discord_btn'>
-                <button className='btn'>JOIN US ON DISCORD</button>
+                <a className='btn' href="https://discord.com/invite/zM47G5YJRs">JOIN US ON DISCORD</a>
             </div>
         </div>
     );

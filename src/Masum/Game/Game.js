@@ -6,7 +6,7 @@ const Game = () => {
         <div>
             <div className='empty'></div>
 
-            <div className='game_area'>
+            <div id='game' className='game_area'>
                 <div className='container'>
                     <div className='row'>
                         <div className='offset-1 col-10 offset-md-3 col-md-6'>

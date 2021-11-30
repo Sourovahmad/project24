@@ -48,7 +48,7 @@
     text-align: center;
     padding: 20px 0;
 }
-.discord_btn button {
+.discord_btn a {
     background: linear-gradient(to right, #ff8652 , #e74663);
     border-radius: 0%;
     font-size: 11px;
@@ -97,7 +97,7 @@
     .discord_btn {
         padding: 17px 0 24px;
     }
-    .discord_btn button {
+    .discord_btn a {
         font-size: 18px;
         line-height: 35px;
         padding: 9px 20px;
@@ -136,7 +136,7 @@
     .discord_btn {
         padding: 19px 0;
     }
-    .discord_btn button {
+    .discord_btn a {
         font-weight: 500;
         padding: 5px 7px;
         font-size: 9px;

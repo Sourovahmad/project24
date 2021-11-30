@@ -14,10 +14,10 @@ const Navbar = () => {
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="text-center navbar-nav mr-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Whitepaper</a>
+                                <a class="nav-link" href="#mint">Whitepaper</a>
                             </li>
                             {/* <li class="nav-item">
                                 <a class="nav-link" href="#">Mint</a>
@@ -26,7 +26,7 @@ const Navbar = () => {
                                 <a class="nav-link" href="#">Claim</a>
                             </li> */}
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Stake</a>
+                                <a class="nav-link" href="#game">Stake</a>
                             </li>
                         </ul>
                     </div>

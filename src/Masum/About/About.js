@@ -5,7 +5,7 @@ import c1 from '../../images/c3.png';
 
 const About = () => {
     return (
-        <div className='about_area pt-4 pb-5'>
+        <div id="about"  className='about_area pt-4 pb-5'>
             <div className='container'>
                 <h2 className='a_title text-center pb-4'>ROADMAP AND PROJECT FEATURES</h2>
 
