@@ -5,6 +5,7 @@
 .game_area {
     background: url(../../images/Background.png) no-repeat;
     padding: 60px 0;
+    background-size: cover;
     font-family: 'Press Start 2P', cursive;
 }
 .game_area .status {
