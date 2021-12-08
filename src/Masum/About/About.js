@@ -24,11 +24,12 @@ const About = () => {
                     </div>
 
                     <div className='col-md-3'>
-                        <div className='a_card mb-3 two'>
-                            <h6 className=''>Implemented in Phase 2 (Q1 2022)</h6>
+                        <div className='a_card two'>
+                            <h6 className=''>Implemented in Phase 2</h6>
                             <div className="a_bg"><img src='' class="img-fluid" alt=""/></div>
                             <div className='px-3'>
                                 <h2 className="pt-2">LAND <span>& UPGRADES</span></h2>
+                                <p>Upon 100% mint of Gen 0, phase 2 will be implemented</p>
                                 <p>Upgrade your Cartel members rank (Total of 4 ranks) and yield more $POWDER.</p>
                                 <p>Use $POWDER to purchase land within the games ecosystem. There will only be 15,000 plots of land available.</p>
                                 <p>Each piece of land will have unique capabilities and grant different benefits within the game</p>
