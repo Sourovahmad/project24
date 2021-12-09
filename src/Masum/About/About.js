@@ -52,7 +52,7 @@ const About = () => {
 
                     <div className='col-md-3'>
                         <div className='a_card four'>
-                            <h6 className='a_sub'></h6>
+                            <h6 className=''>Implemented after 75% mint</h6>
                             <div className="a_bg"><img src='' class="img-fluid" alt=""/></div>
                             <div className='px-3'>
                                 <h2 className="pt-2">COMMUNITY <span>DAO</span></h2>

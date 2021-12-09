@@ -16,7 +16,7 @@
     color: #fff;
     border-width: 1px;
     border-style: solid;
-    border-image: linear-gradient(to bottom, #fc2d2d, #202230) 1;
+    border-image: linear-gradient(to bottom, #fc2d2d, #202230);
 }
 .minting_area .minting_details .mint h6 {
     color: #fc2d2d;

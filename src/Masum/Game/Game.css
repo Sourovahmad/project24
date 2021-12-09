@@ -8,6 +8,78 @@
     background-size: cover;
     font-family: 'Press Start 2P', cursive;
 }
+.game_area .enterLab {
+    background: #202230;
+    color: #fff;
+    border: 1px solid #85031b;
+    margin-bottom: 30px;
+    margin-right: 140px;
+    margin-left: 140px;
+    padding: 15px 40px;
+}
+.game_area .enterLab h2 {
+    text-align: center;
+    color: #fc2d2d;
+    font-size: 20px;
+}
+.game_area .enterLab h6 {
+    text-align: center;
+    font-size: 10px;
+}
+.game_area .enterLab .info_l {
+    text-align: center;
+    margin-top: -20px;
+}
+.game_area .enterLab .info_l h5 {
+    color: #fc2d2d;
+    font-size: 15px;
+    padding-bottom: 9px;
+}
+.game_area .enterLab .info_l .labBtn {
+    background: linear-gradient(to right, #ff8652 , #e74663);
+    border-radius: 0%;
+    font-weight: 600;
+    font-size: 9px;
+    padding: 8px 35px 5px;
+    margin-bottom: 20px;
+}
+.game_area .enterLab .info_l p {
+    color: #fff;
+    font-size: 9px;
+    text-align: left;
+}
+.game_area .enterLab .info_c {
+    text-align: center;
+}
+.game_area .enterLab .info_c img {
+    width: 80px;
+    margin: 0 auto 10px;
+}
+.game_area .enterLab .info_c h5 {
+    font-size: 12px;
+    text-align: center;
+}
+.game_area .enterLab .info_r {
+    margin-top: -20px;
+}
+.game_area .enterLab .info_r h5 {
+    color: #fc2d2d;
+    font-size: 15px;
+    padding-bottom: 9px;
+    text-align: center;
+}
+.game_area .enterLab .info_r .labBtn {
+    background: linear-gradient(to right, #ff8652 , #e74663);
+    border-radius: 0%;
+    font-weight: 600;
+    font-size: 8px;
+    padding: 6px 10px 3px;
+    text-align: left;
+}
+.game_area .enterLab .info_r p {
+    color: #fff;
+    font-size: 9px;
+}
 .game_area .status {
     background-color: #202230;
     border: 1px solid #85031b;
@@ -65,6 +137,62 @@
         padding: 50px 0;
         background: #000;
     }
+    .game_area .enterLab {
+        margin-right: 270px;
+        margin-left: 270px;
+        padding: 25px 50px;
+    }
+    .game_area .enterLab h2 {
+        font-size: 32px;
+    }
+    .game_area .enterLab h6 {
+        font-size: 16px;
+    }
+    .game_area .enterLab .info_l {
+        margin-top: -30px;
+    }
+    .game_area .enterLab .info_l h5 {
+        font-size: 20px;
+        padding-bottom: 14px;
+    }
+    .game_area .enterLab .info_l .labBtn {
+        font-size: 15px;
+        padding: 10px 40px 7px;
+        margin-bottom: 30px;
+    }
+    .game_area .enterLab .info_l p {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+    .game_area .enterLab .info_c {
+    }
+    .game_area .enterLab .info_c img {
+        width: 130px;
+        text-align: left;
+    }
+    .game_area .enterLab .info_c h5 {
+        font-size: 20px;
+        text-align: left;
+    }
+    .game_area .enterLab .info_r {
+        margin-top: -30px;
+    }
+    .game_area .enterLab .info_r h5 {
+        font-size: 20px;
+        padding-bottom: 14px;
+    }
+    .game_area .enterLab .info_r .labBtn {
+        font-size: 15px;
+    }
+    .game_area .enterLab .info_r .enter_extra {
+        margin-top: 13px;
+    }
+    .game_area .enterLab .info_r p {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+
     .game_area .status h2 {
         font-size: 30px;
     }
@@ -110,6 +238,45 @@
     }
 }
 @media (min-width: 320px) and (max-width: 600px) {
+    .game_area .enterLab {
+        margin-right: 30px;
+        margin-left: 30px;
+        padding: 15px 20px;
+    }
+    .game_area .enterLab h2 {
+        font-size: 17px;
+    }
+    .game_area .enterLab h6 {
+        font-size: 9px;
+    }
+    .game_area .enterLab .info_l {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .game_area .enterLab .info_l {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .game_area .enterLab .info_l h5 {
+        padding-bottom: 2px;
+    }
+    .game_area .enterLab .info_l .labBtn {
+        margin-bottom: 15px;
+    }
+    .game_area .enterLab .info_l p {
+        text-align: center;
+    }
+    .game_area .enterLab .info_c {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .game_area .enterLab .info_r {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .game_area .enterLab .info_r h5 {
+        padding-bottom: 2px;
+    }
     .game_area .status p {
         font-size: 6px;
     }
